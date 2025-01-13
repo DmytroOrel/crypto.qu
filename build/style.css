@@ -1,0 +1,95 @@
+/*
+Theme Name: CustomTheme
+Theme URI: https://wordpress.org/themes/CustomTheme/
+Author: the Rost team
+Author URI: http://rost.com.ua/
+Description: CustomTheme brings your site to life with immersive featured images and subtle animations. Our default theme works great in many languages, for any abilities, and on any device.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: CustomTheme
+Tags: custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.nav-custom {
+  margin: 20px 80px;
+  max-width: 1440px !important;
+}
+.nav-custom .navbar-brand {
+  margin-right: 111px;
+}
+.nav-custom .navbar-nav {
+  margin-right: 392px;
+}
+.nav-custom .navbar-nav .nav-item {
+  font-size: 14px;
+  margin-right: 44px;
+}
+.nav-custom .navbar-nav .nav-item .nav-link:hover {
+  color: #ab79a2;
+}
+.nav-custom .navbar-nav .nav-item .nav-link:active, .nav-custom .navbar-nav .nav-item .nav-link:focus {
+  color: #8680B2;
+}
+.nav-custom .dropdown {
+  margin-right: 8px;
+}
+.nav-custom .dropdown .dropdown-custom {
+  font-size: 12px;
+  border: none;
+  transition: color 0.4s ease;
+}
+.nav-custom .dropdown .dropdown-custom:hover {
+  color: #ab79a2;
+}
+.nav-custom .dropdown .dropdown-custom:hover .custom-globe path {
+  stroke: #ab79a2;
+}
+.nav-custom .dropdown .dropdown-custom:active, .nav-custom .dropdown .dropdown-custom:focus {
+  color: #8680B2;
+}
+.nav-custom .dropdown .dropdown-custom:active .custom-globe path, .nav-custom .dropdown .dropdown-custom:focus .custom-globe path {
+  stroke: #8680B2;
+}
+.nav-custom .dropdown .dropdown-custom .custom-globe path {
+  transition: stroke 0.4s ease;
+}
+.nav-custom .dropdown .dropdown-menu {
+  --bs-dropdown-min-width: 6rem;
+}
+.nav-custom .dropdown .dropdown-menu .dropdown-item:hover {
+  color: #ab79a2;
+}
+.nav-custom .dropdown .dropdown-menu .dropdown-item:active {
+  background-color: transparent;
+  color: #8680B2;
+}
+.nav-custom .btn-custom {
+  font-size: 12px;
+  width: 97px;
+  height: 39px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid rgba(42, 39, 64, 0.5019607843);
+  color: #2a2740;
+  cursor: auto;
+}
+.nav-custom .btn-custom:hover {
+  color: #ab79a2;
+}
+.nav-custom .btn-custom:active {
+  color: #8680B2;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1464px !important;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

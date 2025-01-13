@@ -1,0 +1,75 @@
+.nav-custom{
+    margin: 20px 80px;
+    max-width: 1440px !important;
+    .navbar-brand{
+        margin-right: 111px;
+    }
+    .navbar-nav{
+        margin-right: 392px;
+        .nav-item{
+            font-size: 14px;
+            margin-right: 44px;
+            .nav-link{
+                &:hover{
+                    color: #ab79a2;
+                }
+                &:active,
+                &:focus{
+                    color: #8680B2;
+                }
+            }
+        }
+    }
+    .dropdown{
+        margin-right: 8px;
+        .dropdown-custom{
+            font-size: 12px;
+            border: none;
+            transition: color 0.4s ease;
+            &:hover{
+                color: #ab79a2;
+                .custom-globe path{
+                    stroke: #ab79a2;
+                }
+            }
+            &:active,
+            &:focus{
+                color: #8680B2;
+                .custom-globe path{
+                    stroke: #8680B2;
+                }
+            }
+            .custom-globe path{
+                transition: stroke 0.4s ease;
+            }    
+        }
+        .dropdown-menu{
+            --bs-dropdown-min-width: 6rem;
+            .dropdown-item{
+                &:hover{
+                    color: #ab79a2;
+                }
+                &:active{
+                    background-color: transparent;
+                    color: #8680B2;
+                }
+            }
+        }
+    }
+    .btn-custom{
+        font-size: 12px;
+        width: 97px;
+        height: 39px;
+        border-radius: 6px;
+        background-color: transparent;
+        border: 1px solid #2a274080;
+        color: #2a2740;
+        &:hover{
+            color: #ab79a2;
+        }
+        &:active{
+            color: #8680B2;
+        }
+        cursor: auto;
+    }
+}
