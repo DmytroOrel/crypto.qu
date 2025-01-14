@@ -56,20 +56,4 @@
             }
         }
     }
-    .btn-custom{
-        font-size: 12px;
-        width: 97px;
-        height: 39px;
-        border-radius: 6px;
-        background-color: transparent;
-        border: 1px solid #2a274080;
-        color: #2a2740;
-        &:hover{
-            color: #ab79a2;
-        }
-        &:active{
-            color: #8680B2;
-        }
-        cursor: auto;
-    }
 }

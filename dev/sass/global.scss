@@ -7,3 +7,54 @@ body{
     max-width: 1464px !important;
     width: 100%;
 }  
+.template-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 150%;
+    color: #333;
+}
+.secondary-title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #666;
+}
+.gradient-letter{
+    background: url(../assets/img/gradiet-bg.png) center no-repeat;
+}
+.btn-custom{
+    font-size: 12px;
+    width: 97px;
+    height: 39px;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid #2a274080;
+    color: #2a2740;
+    &:hover{
+        border-color: #ab79a2;
+        color: #ab79a2;
+    }
+    &:active{
+        border-color: #8680B2;
+        color: #8680B2;
+    }
+    cursor: auto;
+}
+.crypto-1,
+.crypto-2,
+.crypto-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    .secondary-title{
+        font-size: 9px;
+        font-weight: 700;
+        color: #2a2740;
+    }
+    .exchange-rate{
+        font-size: 15px;
+        font-weight: 700;
+        color: #2a2740;
+    }
+}
+

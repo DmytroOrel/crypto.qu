@@ -1,0 +1,83 @@
+.banner{
+    margin: 91px 120px 0 120px;
+    .banner-box{
+        display: flex;
+        .img-box{
+            margin-right: 87px;
+            .custom-img{
+                position: relative;
+                background: linear-gradient(182deg, #FFF, #ffffff, #e4d8ff, #B3E0FC), #ffffff;
+                border-radius: 30px;
+            }
+            .crypto-1{
+                top: 172px;
+                left: 179px;
+                transform: rotate(-21deg);
+            }
+            .crypto-2{
+                top: 262px;
+                left: 519px;
+                max-width: 83px;
+                max-height: 97px;
+                background-color: #FFF;
+                transform: rotate(9deg);
+                img{
+                    transform: rotate(-9deg);
+                }
+            }  
+            .crypto-3{
+                top: 636px;
+                left: 59px;    
+                max-width: 289px;
+                max-height: 81px;  
+                backdrop-filter: blur(24.660673141479492px);
+                background: rgba(255, 255, 255, 0.5);
+                padding: 20px 30px;
+                border-radius: 11px;
+                .bitcoin-rate{
+                    display: flex;
+                    .exchange-rate{
+                        margin-right: 5px;   
+                    }
+                    img,
+                    svg{
+                        padding-bottom: 20px;
+                        margin-right: 5px;
+                    }
+                }
+            }          
+        }
+        .text-box{
+            .template-title{
+                font-weight: 700;
+                font-size: 52px;
+                line-height: 150%;
+                max-width: 444px;
+                margin-bottom: 32px;
+            }
+            .secondary-title{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 150%;
+                max-width: 464px;
+                margin-bottom: 32px;
+            }
+            .btn-custom{
+                border-radius: 8px;
+                padding: 16px 40px;
+                width: 194px;
+                height: 62px;
+                background-color: #2a2740;
+                color: #fff;
+                font-weight: 700;
+                font-size: 20px;
+                &:hover{
+                    background-color: #ab79a2;
+                }
+                &:active{
+                    background-color: #8680B2;  
+                }
+            }
+        }
+    }
+}
