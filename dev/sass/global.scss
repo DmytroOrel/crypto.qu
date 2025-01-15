@@ -16,6 +16,11 @@ body{
 .secondary-title{
     font-weight: 500;
     font-size: 24px;
+    color: #000; 
+}
+.description{
+    font-weight: 400;
+    font-size: 20px;
     line-height: 150%;
     color: #666;
 }
@@ -57,5 +62,16 @@ body{
         font-weight: 700;
         color: #2a2740;
     }
+}
+.feat-info,
+.feat-info_2,
+.feat-info_3{
+    .ellipse{
+        margin-right: 24px;
+        background: #F2ECFE;
+        padding: 14px;
+        border-radius: 45%;
+        margin-bottom: 16px;
+        }
 }
 

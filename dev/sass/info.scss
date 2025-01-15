@@ -1,0 +1,28 @@
+.info{
+    margin: 100px 108px;
+    .info-box_1{
+        .primary-info{
+            display: flex;
+            margin-bottom: 81px;
+            .template-title{
+                margin-right: 106px;
+                max-width: 476px;
+            }
+            .description{
+                max-width: 625px;
+                margin-top: 9px;
+            }
+        }
+        .feat-box{
+            display: flex;
+            .feat-info,
+            .feat-info_2,
+            .feat-info_3{
+                .description{
+                    font-size: 16px;
+                    margin-right: 55px;
+                }
+            }
+        }
+    }
+}
