@@ -20,8 +20,9 @@ body{
     color: #666;
 }
 .gradient-letter{
-    background: url(../assets/img/gradiet-bg.png) center no-repeat;
-}
+    background: linear-gradient(45deg, #8080AF 33%, #9F709F 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
 .btn-custom{
     font-size: 12px;
     width: 97px;
