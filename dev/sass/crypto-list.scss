@@ -1,0 +1,55 @@
+.crypto-list {
+  margin: 100px 120px;
+  .info-box {
+    display: flex;
+    .crypto-stat_box {
+      margin-right: 59px;
+      padding: 75px 0;
+      .crypto-stat,
+      .crypto-stat_2 {
+        display: flex;
+        .stat-1,
+        .stat-2 {
+          display: flex;
+          .coin {
+            .analitics-stat {
+              max-width: 59px;
+              width: 100%;
+              transform: rotate(351deg);
+            }
+          }
+        }
+      }
+      .crypto-stat_2 {
+        margin: 0 31px 0 31px;
+      }
+    }
+    .text-box {
+      padding: 75px 111px;
+      .template-title {
+        margin-bottom: 24px;
+      }
+      .description {
+        margin-bottom: 36px;
+      }
+      .btn-custom {
+        border: 2px solid rgba(42, 39, 64, 0.5);
+        border-radius: 6px;
+        padding: 16px 40px;
+        width: 172px;
+        height: 62px;
+        cursor: pointer;
+        &:hover {
+          background-color: #ab79a2;
+          border: none;
+          color: #fff;
+        }
+        &:active {
+          background-color: #8680b2;
+          border: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

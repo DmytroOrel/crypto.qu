@@ -1,77 +1,111 @@
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.container{
-    max-width: 1464px !important;
-    width: 100%;
-}  
-.template-title{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 150%;
-    color: #333;
+.container {
+  max-width: 1464px !important;
+  width: 100%;
 }
-.secondary-title{
-    font-weight: 500;
-    font-size: 24px;
-    color: #000; 
+.template-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150%;
+  color: #333;
 }
-.description{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 150%;
-    color: #666;
+.secondary-title {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
 }
-.gradient-letter{
-    background: linear-gradient(45deg, #8080AF 33%, #9F709F 66%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
-.btn-custom{
-    font-size: 12px;
-    width: 97px;
-    height: 39px;
-    border-radius: 6px;
-    background-color: transparent;
-    border: 1px solid #2a274080;
-    color: #2a2740;
-    &:hover{
-        border-color: #ab79a2;
-        color: #ab79a2;
-    }
-    &:active{
-        border-color: #8680B2;
-        color: #8680B2;
-    }
-    cursor: auto;
+.description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #666;
+}
+.gradient-letter {
+  background: linear-gradient(45deg, #8080af 33%, #9f709f 66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-custom {
+  font-size: 12px;
+  width: 97px;
+  height: 39px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid #2a274080;
+  color: #2a2740;
+  &:hover {
+    border-color: #ab79a2;
+    color: #ab79a2;
+  }
+  &:active {
+    border-color: #8680b2;
+    color: #8680b2;
+  }
+  cursor: auto;
 }
 .crypto-1,
 .crypto-2,
-.crypto-3{
-    position: absolute;
-    top: 0;
-    left: 0;
-    .secondary-title{
-        font-size: 9px;
-        font-weight: 700;
-        color: #2a2740;
-    }
-    .exchange-rate{
-        font-size: 15px;
-        font-weight: 700;
-        color: #2a2740;
-    }
+.crypto-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  .secondary-title {
+    font-size: 9px;
+    font-weight: 700;
+    color: #2a2740;
+  }
+  .exchange-rate {
+    font-size: 15px;
+    font-weight: 700;
+    color: #2a2740;
+  }
 }
 .feat-info,
 .feat-info_2,
-.feat-info_3{
-    .ellipse{
-        margin-right: 24px;
-        background: #F2ECFE;
-        padding: 14px;
-        border-radius: 45%;
-        margin-bottom: 16px;
-        }
+.feat-info_3 {
+  .ellipse {
+    margin-right: 24px;
+    background: #f2ecfe;
+    padding: 14px;
+    border-radius: 45%;
+    margin-bottom: 16px;
+  }
 }
-
+.stat-bg {
+  background: linear-gradient(88deg, #fff 11.46%, #e4d8ff 69.27%, #b3e0fc 100%);
+  border-radius: 20px;
+  width: 491px;
+  max-height: 687px;
+}
+.stat-0 {
+  background: #fff;
+  padding: 15px 20px;
+  margin: 0 36px 36px 0;
+  border-radius: 16px;
+  box-shadow: 18px 7px 40px 0px rgba(0, 0, 0, 0.45);
+}
+.stat-1,
+.stat-2 {
+  background: #fff;
+  padding: 12px;
+  margin: 0 36px 36px 0;
+  border-radius: 16px;
+  width: 265px;
+  height: 120px;
+  box-shadow: 18px 7px 40px 0px rgba(0, 0, 0, 0.45);
+  .coin {
+    .secondary-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #26233c;
+    }
+    .exchange-rate {
+      font-size: 22px;
+      margin-right: 24px;
+    }
+  }
+}
